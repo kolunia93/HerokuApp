@@ -1,36 +1,36 @@
-E:\PROJECT\Sociable\src\main\java\ua\service\ImageService.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\FriendReqest.java
-E:\PROJECT\Sociable\src\main\java\ua\tag\HiddenInputs.java
-E:\PROJECT\Sociable\src\main\java\ua\filter\FriendFilter.java
-E:\PROJECT\Sociable\src\main\java\ua\repository\UserRepository.java
-E:\PROJECT\Sociable\src\main\java\ua\service\utils\Engine.java
-E:\PROJECT\Sociable\src\main\java\ua\repository\PrivilegeRepository.java
-E:\PROJECT\Sociable\src\main\java\ua\tag\PageableTag.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\MessageUser.java
-E:\PROJECT\Sociable\src\main\java\ua\repository\FriendRequestRepository.java
-E:\PROJECT\Sociable\src\main\java\ua\repository\FriendRepository.java
-E:\PROJECT\Sociable\src\main\java\ua\service\UserService.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\Gender.java
-E:\PROJECT\Sociable\src\main\java\ua\tag\SortTag.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\AbstractEntity.java
-E:\PROJECT\Sociable\src\main\java\ua\repository\RoleRepository.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\Image.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\form\ImageSaveForm.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\form\FriendReqestForm.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\User.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\Privilege.java
-E:\PROJECT\Sociable\src\main\java\ua\service\FileWriter.java
-E:\PROJECT\Sociable\src\main\java\ua\service\implementation\ImageServiceImpl.java
-E:\PROJECT\Sociable\src\main\java\ua\repository\ImageRepository.java
-E:\PROJECT\Sociable\src\main\java\ua\service\implementation\FileWriterImpl.java
-E:\PROJECT\Sociable\src\main\java\ua\tag\SizeTag.java
-E:\PROJECT\Sociable\src\main\java\ua\service\FriendService.java
-E:\PROJECT\Sociable\src\main\java\ua\service\implementation\UserServiceImpl.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\Obligation.java
-E:\PROJECT\Sociable\src\main\java\ua\entity\Role.java
-E:\PROJECT\Sociable\src\main\java\ua\controller\CostumerController.java
-E:\PROJECT\Sociable\src\main\java\ua\service\utils\InitialDataLoader.java
-E:\PROJECT\Sociable\src\main\java\ua\controller\UserController.java
-E:\PROJECT\Sociable\src\main\java\ua\service\implementation\FriendServiceImpl.java
-E:\PROJECT\Sociable\src\main\java\ua\controller\FriendController.java
-E:\PROJECT\Sociable\src\main\java\ua\tag\AllParams.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\implementation\FileWriterImpl.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\tag\SizeTag.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\controller\FriendController.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\repository\ImageRepository.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\repository\PrivilegeRepository.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\form\FriendReqestForm.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\Obligation.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\implementation\ImageServiceImpl.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\implementation\UserServiceImpl.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\tag\HiddenInputs.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\utils\InitialDataLoader.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\Gender.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\repository\UserRepository.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\UserService.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\tag\SortTag.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\utils\Engine.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\tag\PageableTag.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\controller\UserController.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\Privilege.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\FileWriter.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\controller\CostumerController.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\FriendService.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\filter\FriendFilter.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\MessageUser.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\FriendReqest.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\repository\FriendRequestRepository.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\AbstractEntity.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\implementation\FriendServiceImpl.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\repository\RoleRepository.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\Image.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\repository\FriendRepository.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\service\ImageService.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\Role.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\form\ImageSaveForm.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\entity\User.java
+E:\GIT\Новая папка\Sociable\src\main\java\ua\tag\AllParams.java

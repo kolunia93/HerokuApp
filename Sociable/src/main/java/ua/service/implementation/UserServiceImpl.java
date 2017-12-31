@@ -1,5 +1,6 @@
 package ua.service.implementation;
 
+import java.time.LocalDate;
 import java.util.Iterator;
 import java.util.List;
 
@@ -114,29 +115,30 @@ public class UserServiceImpl implements UserDetailsService, UserService{
 		if(user==null){
 			user = new User();
 			user.setEmail("qqq@mail.ru");
-			user.setPassword(encoder.encode("admin"));
-			user.setOneRole(admin);
+			user.setPassword(encoder.encode("123456"));
+			user.setOneRole(admin);			
+			user.setBirthday(LocalDate.now());
 			user.setUsername("admin");
-			user.setFone("1");
+			user.setFone("099-99-99-999");
 			user.setName("adminName");
 			user.setSecondname("adminSecondName");
 			userRepository.save(user);
 			System.out.println("admin create");
 		}
-		for (int i = 0; i < 10; i++) {
-			user = userRepository.findByUsername("user"+i);
-			if(user==null){
-				user = new User();
-				user.setEmail("qqq@mail.ru");
-				user.setPassword(encoder.encode("123456"));
-				user.setOneRole(userRole);
-				user.setUsername("user"+i);
-				user.setFone("1");
-				user.setName("userName"+i);
-				user.setSecondname("adminSecondName"+i);
-				userRepository.save(user);
-			}
-		}
+//		for (int i = 0; i < 10; i++) {
+//			user = userRepository.findByUsername("user"+i);
+//			if(user==null){
+//				user = new User();
+//				user.setEmail("qqq@mail.ru");
+//				user.setPassword(encoder.encode("123456"));
+//				user.setOneRole(userRole);
+//				user.setUsername("user"+i);
+//				user.setFone("1");
+//				user.setName("userName"+i);
+//				user.setSecondname("adminSecondName"+i);
+//				userRepository.save(user);
+//			}
+//		}
 		
 	}
 

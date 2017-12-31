@@ -19,8 +19,10 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
+import javax.validation.constraints.Past;
 
 import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.security.core.GrantedAuthority;
@@ -32,31 +34,35 @@ import org.springframework.security.core.userdetails.UserDetails;
 public class User extends AbstractEntity  implements UserDetails{
 	
 	private static final long serialVersionUID = -8288001889276940237L;
-	
-	int numoffriends;
-	
+		
 	private volatile int avatar;	
 
 	@Column(name = "version", nullable = true)
 	private volatile Integer version;
 	
+	
+	@Length(min=3,message="Name must be longer then 3")
 	private String name;
 	
 	private String secondname;
 	
-	@NotEmpty
+	@NotEmpty(message="username cant by emty")
+	@Length(min=5,message="Username must be longer then 5")
 	private String username;
 	
-	@NotEmpty
+	@NotEmpty(message="Password cant by emty")
+	@Length(min=6,message="Password must be longer then 6")
 	private String password;
 	
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private LocalDate birthday;
 	
-	@NotEmpty
+	@NotEmpty(message="Email cant by emty")
 	@Email
 	private String email;
 	
+	@NotEmpty(message="Fone cant by emty")
+	@Length(min=9, max=20,message="Wrong format.Example:'099-99-99-999'")
 	private String fone;
 	
 	@OneToMany(mappedBy="user")
@@ -239,14 +245,6 @@ public class User extends AbstractEntity  implements UserDetails{
 
 	public void setOutput(Set<FriendReqest> output) {
 		this.output = output;
-	}
-
-	public int getNumoffriends() {
-		return numoffriends;
-	}
-
-	public void setNumoffriends(int numoffriends) {
-		this.numoffriends = numoffriends;
 	}
 
 	public LocalDate getBirthday() {

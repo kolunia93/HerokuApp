@@ -21,9 +21,6 @@ public class Image extends AbstractEntity implements Serializable {
 	
 	private String comment;
 	
-	
-	
-	
 	@ManyToOne
 	@JoinColumn(name="user_id")
 	private User user;

@@ -13,7 +13,6 @@ public abstract class User_ extends ua.entity.AbstractEntity_ {
 
 	public static volatile SingularAttribute<User, LocalDate> birthday;
 	public static volatile SingularAttribute<User, Gender> gender;
-	public static volatile SingularAttribute<User, Integer> numoffriends;
 	public static volatile ListAttribute<User, Role> roles;
 	public static volatile SingularAttribute<User, Integer> avatar;
 	public static volatile SingularAttribute<User, Integer> version;

@@ -78,7 +78,7 @@
 			
 			<div class="row">
 				<div class="col-md-12 col-xs-12 text-center">
-					<custom:pageable page="${friends}" cell="<li></li>" container="<ul class='pagination'></ul>" />
+					<custom:pageable page="${reqests}" cell="<li></li>" container="<ul class='pagination'></ul>" />
 					
 				</div>
 			</div>
