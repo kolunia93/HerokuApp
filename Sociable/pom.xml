@@ -54,7 +54,7 @@
 		<springVersionJpa>1.11.8.RELEASE</springVersionJpa>
 		<springTiles>3.0.7</springTiles>
 		<hibernateVersion>5.2.1.Final</hibernateVersion>
-		<springSecurityVersion>4.0.3.RELEASE</springSecurityVersion>
+		<springSecurityVersion>5.2.10.RELEASE</springSecurityVersion>
 		<spring-boot-starter>1.5.9.RELEASE</spring-boot-starter>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
